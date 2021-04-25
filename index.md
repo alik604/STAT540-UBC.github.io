@@ -2,10 +2,15 @@
 output:
   html_document:
     includes:
+      before_body: include/nav.html
       after_body: include/nothing.html
 ---
 
+
 # Statistical Methods for High Dimensional Biology
+<span style="color: red"></span>
+
+Please complete <span style="color: blue">[this survey](https://docs.google.com/forms/d/e/1FAIpQLSd8WlRLiBRaNrNk5PEY87nLkEPjZ60BcdTMUU0JAQRyMkkNsg/viewform?usp=sf_link)</span> as soon as you see this post so we can set up a repo for you! :) 
 
 ### UBC STAT 540
 
@@ -15,7 +20,7 @@ Cross-listed as STAT 540, BIOF 540, GSAT 540
 
 ### Time and Location
 
-05 January 2015 - 08 April 2015
+06 January 2020 - 08 April 2020
 
 #### Lecture (Sec 201)
 
@@ -23,18 +28,18 @@ Cross-listed as STAT 540, BIOF 540, GSAT 540
 
 **Location**: ESB 2012
 
-#### Seminar / computing lab (S2A) -- REGISTRATION IS REQUIRED!
+#### Seminar / computing lab (S2B) -- REGISTRATION IS REQUIRED!
 
-**Time**: officially runs Wed 12pm - 1pm; unofficially students are welcome to come after class around 11am and begin a ~1 hour guided analysis with TA support; TA will remain in the lab until 1pm to help those who start as 12pm and for general office hours.
+**Time**: every Monday 12 - 1pm. The TAs will remain in the lab until 1pm for general office hours.
 
-**Location**: ESB 1042 and 1046
+**Location**: Orchard Commons 4074
 
 ### Learning objectives:
 
-  * explore and visualize genomics data
-  * apply tailored statitical methods for high dimensional biology data
-  * make your work reproducible, reusable, and shareable
-  * work with real data in a collaborative model
+  * Explore and visualize genomics data
+  * Apply tailored statitical methods for high dimensional biology data
+  * Make your work reproducible, reusable, and shareable
+  * Work with real data in a collaborative model
 
 ### Selected topics
 
@@ -57,4 +62,34 @@ The course organization on GitHub: <https://github.com/STAT540-UBC>
 Repo that creates this website: <https://github.com/STAT540-UBC/STAT540-UBC.github.io>
 
 Repo that supports the Discussion forum: <https://github.com/STAT540-UBC/Discussion>
+
+### Major deadlines
+
+Assignment                            Due Date               Category              
+------------------------------------  ---------------------  ----------------------
+Seminar 1                             Fri 10 January 2020    Seminar               
+Warm-Up                               Thu 16 January 2020    Individual Assignment 
+Seminar 2a&b                          Fri 17 January 2020    Seminar               
+Project Groups and Initial Proposal   Thu 23 January 2020    Group Project         
+Seminar 2c                            Fri 24 January 2020    Seminar               
+Seminar 3                             Fri 31 January 2020    Seminar               
+Seminar 4                             Fri 07 February 2020   Seminar               
+Finalized Project Proposal            Thu 13 February 2020   Group Project         
+Paper Critique                        Thu 20 February 2020   Paper Critique        
+Seminar 6                             Fri 28 February 2020   Seminar               
+Project Progress Report               Fri 13 March 2020      Group Project         
+Analysis Assignment                   Mon 23 March 2020      Individual Assignment 
+Presentation Submission               Tue 31 March 2020      Group Project         
+Github Repo                           Fri 03 April 2020      Group Project         
+Individual Report                     Sat 04 April 2020      Group Project         
+
+### Assignment Timeline
+
+<!--html_preserve--><div id="htmlwidget-ad6426d9a1d8a2de8df6" class="timevis html-widget" style="width:672px;height:480px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-ad6426d9a1d8a2de8df6">{"x":{"items":[{"id":"1","content":"Warm-Up","start":"2020-01-16 23:59:00","Category":"Individual Assignment","style":"background-color: gold;"},{"id":"2","content":"Paper Critique","start":"2020-02-20 23:59:00","Category":"Paper Critique","style":"background-color: aqua;"},{"id":"3","content":"Analysis Assignment","start":"2020-03-23 23:59:00","Category":"Individual Assignment","style":"background-color: pink;"},{"id":"4","content":"Project Groups and Initial Proposal","start":"2020-01-23 23:59:00","Category":"Group Project","style":"background-color: lavender;"},{"id":"5","content":"Finalized Project Proposal","start":"2020-02-13 23:59:00","Category":"Group Project","style":"background-color: lavender;"},{"id":"6","content":"Project Progress Report","start":"2020-03-13 23:59:00","Category":"Group Project","style":"background-color: lavender;"},{"id":"7","content":"Presentation Submission","start":"2020-03-31 23:59:00","Category":"Group Project","style":"background-color: lavender;"},{"id":"8","content":"Github Repo","start":"2020-04-03 23:59:00","Category":"Group Project","style":"background-color: lavender;"},{"id":"9","content":"Individual Report","start":"2020-04-04 23:59:00","Category":"Group Project","style":"background-color: lavender;"},{"id":"10","content":"Seminar 1","start":"2020-01-10 23:59:00","Category":"Seminar","style":"background-color: palegreen;"},{"id":"11","content":"Seminar 2a&b","start":"2020-01-17 23:59:00","Category":"Seminar","style":"background-color: palegreen;"},{"id":"12","content":"Seminar 2c ","start":"2020-01-24 23:59:00","Category":"Seminar","style":"background-color: palegreen;"},{"id":"13","content":"Seminar 3 ","start":"2020-01-31 23:59:00","Category":"Seminar","style":"background-color: palegreen;"},{"id":"14","content":"Seminar 4 ","start":"2020-02-07 23:59:00","Category":"Seminar","style":"background-color: palegreen;"},{"id":"15","content":" Seminar 6 ","start":"2020-02-28 23:59:00","Category":"Seminar","style":"background-color: palegreen;"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"api":[]},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 
